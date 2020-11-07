@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Smartwatch</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="left-container">
+            <h1>SmartWatch</h1>
+        </div>
+        <div class="watch-container">
+            <div class="inner-container">
+                <div class="timesmall"><label>
+                        <p id="small-time">29:20</p>
+                    </label></div>
+                <div class="middle-container">
+                    <div class="time">
+                        <h2 id="big-time">29:20</h2>
+                    </div>
+                    <div class="day">
+                        <h1 id="day-name">Monday</h1>
+                    </div>
+                </div>
+                <div class="message" id="display-message">
+                    <button onclick="showJavaMsg()">
+                        <p>Java</p>
+                    </button>
+
+                    <button onclick="showHtmlMsg()">
+                        <p>Html</p>
+                    </button>
+
+                    <button onclick="showCssMsg()">
+                        <p>Css</p>
+                    </button>
+
+                </div>
+                <div id="msg-container1">
+                    <p>Java is high-level programming language developed by sun Microsystems</p>
+                </div>
+                <div id="msg-container2">
+                    <p>HTML stands for Hyper Text Markup Language. HTML describes the structure of a Web page.</p>
+                </div>
+                <div id="msg-container3">
+                    <p>Css is a cascading style sheet used for styling purpose.</p>
+                </div>
+                <div class="buttons" id="button">
+                    <button id="btnMessage" onclick="showMsg()"><i class="material-icons">forum</i></button>
+                    <button><i class="material-icons" id="music">music_note</i></button>
+                    <button id="btnTime" onclick="showTime()"><i class="material-icons"
+                            id="time">access_time</i></button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
